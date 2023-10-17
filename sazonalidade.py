@@ -1,13 +1,13 @@
 dia = int(input('digite um dia'))
-mês = int(input('digite um mês'))
+mes = int(input('digite um mês'))
 
-if  dia == 1 or dia ==2 or dia == 3:
+if  mes == 12 and 31>= dia > 22 or mes == 1 or mes ==2 or mes == 3 and dia<20:
     print('verão')
-elif dia == 4 or dia ==5 or dia == 6:
+elif mes == 4 and 31 >=dia>= 20  or mes ==5 or mes == 6 and dia<21:
     print('outono')
-elif dia == 7 or dia ==8 or dia == 9:
+elif mes == 7 and 31 >=dia>= 21 or mes ==8 or mes == 9 and dia<23:
     print('inverno')
-elif dia == 10 or dia ==11 or dia == 12:
+elif mes == 10 and 31 >=dia>= 23 or mes ==11 or mes == 12:
     print('primavera')
 else:
-    print('escola um número que preste')
+    print('escolha um número que preste!')
