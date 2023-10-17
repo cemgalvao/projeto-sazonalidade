@@ -10,4 +10,4 @@ elif mes == 7 and 31 >=dia>= 21 or mes ==8 or mes == 9 and dia<23:
 elif mes == 10 and 31 >=dia>= 23 or mes ==11 or mes == 12:
     print('primavera')
 else:
-    print('escolha um número que preste!')
+    print('Escolha um número que preste!')
